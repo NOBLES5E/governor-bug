@@ -1,0 +1,11 @@
+[package]
+name = "governor-bug"
+version = "0.1.0"
+edition = "2024"
+publish = ["crates-io"]
+
+[dependencies]
+bytes = "*"
+crossbeam = "*"
+governor = "*"
+nonzero_ext = "*"
